@@ -110,8 +110,8 @@ export const About = () => {
                       (2025.12 - Present)
                     </h4>
                     <p>
-                      Developed and maintained microservices for cloud-based
-                      applications.
+                      Participated in the full lifecycle of Ascend chip operator
+                      feature development 
                     </p>
                   </div>
                   <div>

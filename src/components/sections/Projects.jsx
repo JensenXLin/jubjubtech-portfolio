@@ -14,13 +14,14 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+              <h3 className="text-xl font-bold mb-2">AI Image to Video</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling
+                An AI-powered creative platform that converts images into
+                engaging videos with smooth motion, efficient generation, and
+                easy-to-use tools.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["Vue", "Nuxt.js", "Vite"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -32,7 +33,66 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://aiimagetovideo.pro/"
+                  target="_blank"
+                  className="text-blue-400 hover:text-blue-300 transition colors my-4"
+                >
+                  {" "}
+                  View Project →{" "}
+                </a>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">E-Commerce Website</h3>
+              <p className="text-gray-400 mb-4">
+                A responsive online shopping platform, featuring product
+                listings, intuitive navigation, and a seamless user experience.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "TailwindCSS", "Vercel"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://ecommerce-react-course-website-five.vercel.app/"
+                  target="_blank"
+                  className="text-blue-400 hover:text-blue-300 transition colors my-4"
+                >
+                  {" "}
+                  View Project →{" "}
+                </a>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">
+                Scottish Literature Scholars Website
+              </h3>
+              <p className="text-gray-400 mb-4">
+                A collaborative platform for Scottish literature scholars to
+                have information sharing and research exchange.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["PHP", "jQuery", "WordPress"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://scottishlit.com/"
+                  target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition colors my-4"
                 >
                   {" "}
